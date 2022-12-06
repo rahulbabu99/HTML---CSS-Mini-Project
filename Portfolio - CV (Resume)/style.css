@@ -1,0 +1,90 @@
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: "Montserrat", sans-serif;
+}
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+.resume .resumeleft {
+  width: 280px;
+  background: #0bb5f4;
+}
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+.resume .resumeright {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+.bold{
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.resume .resumeleft .resumecontent {
+  padding: 0 25px;
+}
+.resume.resumeleft.resumeprofile{
+  width:100%;
+  height: 280px;
+}
+.pic{
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resumeleft ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.resume .resumeleft ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.resume .icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.resume .resumeleft ul li .data {
+  color: white;
+}
+.title{
+  color:black;
+  margin-bottom:20px;
+}
+.datas{
+  margin-bottom:20px;
+}
+.resumeprofile{
+  margin-bottom:20px;
+}
+.lowcolor{
+  color:#555555;
+}
+.itemlan{
+  margin-bottom: 50px;
+}
